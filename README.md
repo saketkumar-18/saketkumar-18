@@ -13,20 +13,28 @@ Turning Data into Intelligence. Building AI for Real-World Impact.
 
 <p align="center">
 
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+<a href="https://linkedin.com/in/iitgsaketkumar">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="mailto:YOUR_EMAIL">
+<a href="mailto:k.saket@op.iitg.ac.in">
+  <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
+</a>
+
+<a href="mailto:saketanand9693@gmail.com">
 <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<a href="https://YOUR_PORTFOLIO">
+<a href="https://ksaketportfolio.netlify.app">
 <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/saketkumar-18">
 <img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge"/>
+</a>
+
+<a href="https://instagram.com/k.saket_" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
 
 </p>
@@ -331,16 +339,24 @@ GitHub Actions
 
 <p align="center">
 
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+<a href="https://linkedin.com/in/iitgsaketkumar">
 <img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
 
-<a href="mailto:YOUR_EMAIL">
+<a href="mailto:k.saket@op.iitg.ac.in">
+  <img src="https://skillicons.dev/icons?i=outlook" />
+</a>
+
+<a href="mailto:saketanand9693@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail"/>
 </a>
 
-<a href="https://YOUR_PORTFOLIO">
+<a href="https://ksaketportfolio.netlify.app">
 <img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge"/>
+</a>
+
+<a href="https://instagram.com/k.saket_" target="_blank">
+  <img src="https://skillicons.dev/icons?i=instagram" />
 </a>
 
 </p>
