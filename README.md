@@ -1,390 +1,230 @@
-## Hi there 👋
-<h1 align="center">Hi 👋, I'm Saket Kumar</h1>
+<div align="center">
 
-<h3 align="center">
-Data Scientist • AI Engineer • ML Engineer
-</h3>
+<img src="assets/banner.svg" width="100%" alt="Saket Kumar — AI/ML Engineer"/>
 
-<p align="center">
-Turning Data into Intelligence. Building AI for Real-World Impact.
-</p>
+<br/>
 
----
+<a href="https://linkedin.com/in/iitgsaketkumar"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:k.saket@op.iitg.ac.in"><img src="https://img.shields.io/badge/IITG%20Mail-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="IITG Mail"/></a>
+<a href="mailto:saketanand9693@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<a href="https://saket18.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://instagram.com/k.saket_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
 
-<p align="center">
+<br/><br/>
 
-<a href="https://linkedin.com/in/iitgsaketkumar">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<img src="https://komarev.com/ghpvc/?username=saketkumar-18&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views"/>
+<a href="https://github.com/saketkumar-18?tab=followers"><img src="https://img.shields.io/github/followers/saketkumar-18?style=for-the-badge&color=22d3ee&logo=github" alt="Followers"/></a>
 
-<a href="mailto:k.saket@op.iitg.ac.in">
-  <img src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" />
-</a>
-
-<a href="mailto:saketanand9693@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://ksaketportfolio.netlify.app">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-
-<a href="https://github.com/saketkumar-18">
-<img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge"/>
-</a>
-
-<a href="https://instagram.com/k.saket_" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-</a>
-
-</p>
+</div>
 
 ---
 
-# 🚀 About Me
+## 🧠 About Me
 
-I'm passionate about building intelligent systems that solve real-world problems through **Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI**.
+```python
+class SaketKumar:
+    def __init__(self):
+        self.name = "Saket Kumar"
+        self.role = ["AI/ML Engineer", "Data Scientist", "LLM & RAG Builder"]
+        self.education = "B.Sc. Data Science & AI @ IIT Guwahati"
+        self.location = "New Delhi, India 🇮🇳"
 
-Currently focusing on:
+    def currently_building(self):
+        return [
+            "Production-ready RAG systems & LLM apps",
+            "Fine-tuning open-source LLMs (LoRA / QLoRA)",
+            "Agentic AI & multi-agent pipelines",
+            "Computer vision for real-world impact",
+        ]
 
-- 🤖 Machine Learning
-- 🧠 Deep Learning
-- 💬 Large Language Models (LLMs)
-- 🧩 LLM Fine-Tuning
-- 📄 Retrieval-Augmented Generation (RAG)
-- 👁️ Computer Vision
-- 🗣️ Natural Language Processing
-- ☁️ Google Cloud (Vertex AI)
-- ⚙️ MLOps
-- 🚀 AI Deployment
+    def ask_me_about(self):
+        return ["LLMs", "RAG", "MLOps", "GenAI", "Computer Vision"]
+```
 
----
-
-# 💼 Current Focus
-
-✔ Building Production-Ready AI Applications
-
-✔ Fine-Tuning Open Source LLMs
-
-✔ Google Cloud Vertex AI
-
-✔ End-to-End MLOps Pipelines
-
-✔ Scalable AI APIs
-
-✔ Computer Vision Projects
-
-✔ Generative AI Applications
+> 💡 **Turning data into intelligence. Building AI for real-world impact.**
 
 ---
 
-# 🛠 Tech Stack
+## 🚀 Featured Projects
 
-## Programming
+<table>
+<tr>
+<td width="50%">
 
-<p>
+### 🌊 [Yamuna Flood Mapper](https://github.com/saketkumar-18/yamuna-flood-mapper)
+Sentinel-1 SAR satellite flood mapping for the Yamuna corridor, Delhi — free satellite data, free hosting.
+<br/>`Python` `Sentinel-1` `Remote Sensing`
+<br/>🔗 [Live Demo](https://yamuna-flood-mapper.vercel.app)
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,bash,git,github,linux,vscode"/>
+</td>
+<td width="50%">
 
-</p>
+### 🌌 [3D Motion Portfolio](https://github.com/saketkumar-18/portfolio-3d)
+Cinematic scroll-driven 3D journey — Three.js through a low-poly sunset world.
+<br/>`Three.js` `WebGL` `JavaScript`
+<br/>🔗 [Live Demo](https://saket18.is-a.dev)
 
----
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-## Data Science
+### 🧠 [MindVault](https://github.com/saketkumar-18/mindvault)
+Local-first private AI knowledge assistant — semantic search & chat with your docs, 100% on-device. No cloud, no telemetry.
+<br/>`Python` `Local LLMs` `RAG`
 
-<p>
+</td>
+<td width="50%">
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=numpy,pandas,matplotlib,plotly,seaborn"/>
+### 🔎 [Lost & Found Network](https://github.com/saketkumar-18/lost-found-network)
+Privacy-first community platform for lost & found items — smart matching engine, map view, anonymous chat.
+<br/>`Next.js` `PostgreSQL` `Leaflet`
 
-</p>
+</td>
+</tr>
+<tr>
+<td width="50%">
 
----
+### 👻 [GhostLink](https://ghostlink-web-eight.vercel.app)
+Anonymous real-time chat & social discovery — no accounts, ephemeral sessions, self-destructing messages.
+<br/>`React` `Node.js` `WebSockets`
+<br/>🔗 [Live Demo](https://ghostlink-web-eight.vercel.app)
 
-## Machine Learning
+</td>
+<td width="50%">
 
-<p>
+### 📄 [PDF RAG Chatbot](https://pdf-rag-chatbot-gamma.vercel.app)
+Chat with any PDF using retrieval-augmented generation — vector index + LLM, deployed serverless.
+<br/>`Python` `RAG` `FastAPI`
+<br/>🔗 [Live Demo](https://pdf-rag-chatbot-gamma.vercel.app)
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch"/>
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-</p>
+### 🎵 [Saket18 Music](https://saket18-music.vercel.app)
+Full-featured music streaming PWA — search, playback, recommendations. Installable on Android.
+<br/>`React` `PWA` `Music API`
+<br/>🔗 [Live Demo](https://saket18-music.vercel.app)
 
-Scikit-learn
+</td>
+<td width="50%">
 
-XGBoost
+### 🌫️ [Delhi AQI Predictor](https://delhi-aqi-forecast.netlify.app)
+ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh data.
+<br/>`Python` `Time Series` `ML`
+<br/>🔗 [Live Demo](https://delhi-aqi-forecast.netlify.app)
 
-LightGBM
-
-CatBoost
-
----
-
-## Generative AI
-
-- LangChain
-
-- LangGraph
-
-- Llama.cpp
-
-- Ollama
-
-- Hugging Face
-
-- Transformers
-
-- PEFT
-
-- LoRA
-
-- QLoRA
-
-- GGUF
-
-- RAG
-
-- FAISS
-
-- ChromaDB
-
-- Pinecone
-
-- Prompt Engineering
-
----
-
-## Cloud
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=gcp,aws,docker,kubernetes"/>
-
-</p>
-
-Google Cloud Vertex AI
-
-Cloud Run
-
-Cloud Storage
-
-BigQuery
-
-Cloud Functions
+</td>
+</tr>
+</table>
 
 ---
 
-## Databases
+## 🛠️ Tech Stack
 
-<p>
+<div align="center">
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb"/>
+**Languages & Core**
 
-</p>
+<img src="https://skillicons.dev/icons?i=python,c,cpp,ts,js,bash,git,linux,vscode&theme=dark" alt="Languages"/>
 
-FAISS
+**ML / Deep Learning / GenAI**
 
-ChromaDB
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface&theme=dark" alt="ML"/>
+&nbsp;&nbsp;`Scikit-learn` `XGBoost` `LangChain` `LangGraph` `LlamaIndex` `Ollama` `llama.cpp` `LoRA/QLoRA` `FAISS` `ChromaDB`
 
-Milvus
+**Data Science**
 
----
+<img src="https://go-skill-icons.vercel.app/api/icons?i=numpy,pandas,matplotlib,plotly,seaborn" alt="Data Science"/>
 
-## Deployment
+**Web & Cloud**
 
-FastAPI
+<img src="https://skillicons.dev/icons?i=react,nextjs,fastapi,nodejs,docker,kubernetes,gcp,aws,vercel,netlify&theme=dark" alt="Web & Cloud"/>
 
-Streamlit
+**Databases**
 
-Gradio
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases"/>
 
-Docker
-
-NGINX
-
-MLflow
-
-GitHub Actions
+</div>
 
 ---
 
-# 📈 Areas of Interest
+## 📊 GitHub Analytics
 
-- Artificial Intelligence
+<div align="center">
 
-- Machine Learning
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=saketkumar-18&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub Stats"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saketkumar-18&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top Languages"/>
 
-- Deep Learning
+<br/>
 
-- Data Science
+<img src="https://streak-stats.demolab.com?user=saketkumar-18&theme=transparent&hide_border=true&ring=7c3aed&fire=22d3ee&currStreakLabel=22d3ee" alt="Streak"/>
 
-- LLM Fine-Tuning
+<br/>
 
-- Generative AI
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=saketkumar-18&theme=react-dark&hide_border=true&area=true&color=22d3ee&line=7c3aed&point=f472b6" alt="Activity Graph"/>
 
-- Agentic AI
-
-- Computer Vision
-
-- Natural Language Processing
-
-- Reinforcement Learning
-
-- Data Engineering
-
-- MLOps
-
-- Cloud AI
+</div>
 
 ---
 
-# 🚀 Featured Projects
+## 🐍 Contribution Snake
 
-| Project | Description |
-|----------|-------------|
-| 🤖 AI Resume Analyzer | ATS Resume Evaluation using LLMs |
-| 💬 RAG Chatbot | Chat with PDFs using Local LLMs |
-| 🧠 Fine-Tuned LLM | Domain Specific Language Model |
-| 👁️ Object Detection | YOLO Computer Vision Project |
-| 🩺 Medical Image Classification | CNN-based Disease Detection |
-| 📈 Time Series Forecasting | Sales Prediction using Deep Learning |
-| ☁️ Vertex AI Deployment | Deploy AI models on Google Cloud |
-| ⚙️ MLOps Pipeline | Docker + MLflow + FastAPI |
-| 🤝 Recommendation System | Personalized Recommendation Engine |
-| 📊 Customer Churn Prediction | End-to-End ML Project |
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/saketkumar-18/saketkumar-18/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/saketkumar-18/saketkumar-18/output/github-contribution-grid-snake.svg"/>
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/saketkumar-18/saketkumar-18/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+</div>
 
 ---
 
-# 📊 GitHub Statistics
+## 🏆 Trophies
 
-<p align="center">
+<div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
+<img src="https://github-profile-trophy.vercel.app/?username=saketkumar-18&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="Trophies"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight"/>
-
-</p>
+</div>
 
 ---
 
-# 🔥 GitHub Streak
+## 🎯 2026 Goals
 
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight"/>
-
-</p>
-
----
-
-# 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night"/>
-
-</p>
+- [x] Build production-ready AI applications
+- [x] Deploy real-world ML systems (flood mapping, AQI forecasting)
+- [ ] Master LLM fine-tuning & distributed training
+- [ ] Contribute to open-source AI projects
+- [ ] Publish technical blogs
+- [ ] Earn Google Cloud certifications
 
 ---
 
-# 🏆 GitHub Trophies
+## 📚 Currently Learning
 
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&row=2&column=4"/>
-
-</p>
+`Agentic AI` · `Multi-Agent Systems` · `LangGraph` · `MCP` · `Reinforcement Learning` · `Distributed Training` · `Vector Databases`
 
 ---
 
-# 🎯 2026 Goals
+<div align="center">
 
-- ✅ Build 50+ AI Projects
+### 🤝 Let's Build Something Intelligent Together
 
-- ✅ Master LLM Fine-Tuning
+<a href="https://linkedin.com/in/iitgsaketkumar"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/></a>&nbsp;&nbsp;
+<a href="mailto:k.saket@op.iitg.ac.in"><img src="https://skillicons.dev/icons?i=outlook" alt="Outlook"/></a>&nbsp;&nbsp;
+<a href="mailto:saketanand9693@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail"/></a>&nbsp;&nbsp;
+<a href="https://saket18.is-a.dev"><img src="https://skillicons.dev/icons?i=vercel" alt="Portfolio"/></a>&nbsp;&nbsp;
+<a href="https://instagram.com/k.saket_"><img src="https://skillicons.dev/icons?i=instagram" alt="Instagram"/></a>
 
-- ✅ Deploy Production AI Systems
+<br/><br/>
 
-- ✅ Contribute to Open Source
+**⭐ If you like my work, consider starring my repositories!**
 
-- ✅ Publish Technical Blogs
+*Thanks for visiting* ❤️
 
-- ✅ Build AI SaaS Products
-
-- ✅ Earn Google Cloud Certifications
-
-- ✅ Learn Distributed Training
-
----
-
-# 📚 Currently Learning
-
-- Agentic AI
-
-- Multi-Agent Systems
-
-- LangGraph
-
-- MCP
-
-- Reinforcement Learning
-
-- Distributed Training
-
-- Vector Databases
-
-- Kubernetes
-
----
-
-# 🤝 Let's Connect
-
-<p align="center">
-
-<a href="https://linkedin.com/in/iitgsaketkumar">
-<img src="https://skillicons.dev/icons?i=linkedin"/>
-</a>
-
-<a href="mailto:k.saket@op.iitg.ac.in">
-  <img src="https://skillicons.dev/icons?i=outlook" />
-</a>
-
-<a href="mailto:saketanand9693@gmail.com">
-<img src="https://skillicons.dev/icons?i=gmail"/>
-</a>
-
-<a href="https://ksaketportfolio.netlify.app">
-<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge"/>
-</a>
-
-<a href="https://instagram.com/k.saket_" target="_blank">
-  <img src="https://skillicons.dev/icons?i=instagram" />
-</a>
-
-</p>
-
----
-
-<p align="center">
-
-⭐ If you like my work, consider starring my repositories!
-
-</p>
-
-<p align="center">
-
-Thanks for visiting ❤️
-
-</p>
-<!--
-**saketkumar-18/saketkumar-18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
