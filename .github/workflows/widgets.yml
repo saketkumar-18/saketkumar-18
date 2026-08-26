@@ -41,7 +41,7 @@ jobs:
           cd /tmp/grs
           npm install --no-audit --no-fund
           cp "$GITHUB_WORKSPACE/scripts/generate-stats.mjs" .
-          PAT_1=${{ secrets.GITHUB_TOKEN }} node generate-stats.mjs saketkumar-18 "$GITHUB_WORKSPACE/dist"
+          PAT_1=${{ secrets.GH_PAT }} node generate-stats.mjs saketkumar-18 "$GITHUB_WORKSPACE/dist"
 
       # ---- 3. Activity graph ----
       - name: Clone github-readme-activity-graph
@@ -52,7 +52,7 @@ jobs:
           cd /tmp/ag
           npm install --no-audit --no-fund
           cp "$GITHUB_WORKSPACE/scripts/generate-graph.ts" .
-          TOKEN=*** secrets.GITHUB_TOKEN }} npx tsx generate-graph.ts saketkumar-18 "$GITHUB_WORKSPACE/dist"
+          TOKEN=*** secrets.GH_PAT }} npx tsx generate-graph.ts saketkumar-18 "$GITHUB_WORKSPACE/dist"
 
       # ---- 4. Push all widgets to output branch ----
       - name: Push widgets to output branch
