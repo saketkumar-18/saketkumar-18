@@ -37,25 +37,31 @@ jobs:
         run: git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/grs
 
       - name: Generate stats cards
+        env:
+          STATS_PAT: ${{ secrets.GH_PAT }}
         run: |
           cd /tmp/grs
           npm install --no-audit --no-fund
           cp "$GITHUB_WORKSPACE/scripts/generate-stats.mjs" .
-          PAT_1=${{ secrets.GH_PAT }} node generate-stats.mjs saketkumar-18 "$GITHUB_WORKSPACE/dist"
+          PAT_1="$STATS_PAT" node generate-stats.mjs saketkumar-18 "$GITHUB_WORKSPACE/dist"
 
       # ---- 3. Activity graph ----
       - name: Clone github-readme-activity-graph
         run: git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git /tmp/ag
 
       - name: Generate activity graph
+        env:
+          GRAPH_PAT: ${{ secrets.GH_PAT }}
         run: |
           cd /tmp/ag
           npm install --no-audit --no-fund
           cp "$GITHUB_WORKSPACE/scripts/generate-graph.ts" .
-          TOKEN=*** secrets.GH_PAT }} npx tsx generate-graph.ts saketkumar-18 "$GITHUB_WORKSPACE/dist"
+          TOKEN="$GRAPH_PAT" npx tsx generate-graph.ts saketkumar-18 "$GITHUB_WORKSPACE/dist"
 
       # ---- 4. Push all widgets to output branch ----
       - name: Push widgets to output branch
+        env:
+          PUSH_PAT: ${{ secrets.GH_PAT }}
         run: |
           cd "$GITHUB_WORKSPACE/dist"
           git init -q
@@ -63,5 +69,5 @@ jobs:
           git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" \
             commit -q -m "chore: refresh profile widgets"
           git branch -M output
-          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/saketkumar-18/saketkumar-18.git"
+          git remote add origin "https://$PUSH_PAT@github.com/saketkumar-18/saketkumar-18.git"
           git push -q -f origin output
