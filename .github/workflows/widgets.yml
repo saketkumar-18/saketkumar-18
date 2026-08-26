@@ -1,0 +1,67 @@
+name: Generate Profile Widgets
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # ---- 1. Contribution snake ----
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: saketkumar-18
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+
+      # ---- 2. GitHub stats + top languages ----
+      - name: Clone github-readme-stats
+        run: git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/grs
+
+      - name: Generate stats cards
+        run: |
+          cd /tmp/grs
+          npm install --no-audit --no-fund
+          cp "$GITHUB_WORKSPACE/scripts/generate-stats.mjs" .
+          PAT_1=${{ secrets.GITHUB_TOKEN }} node generate-stats.mjs saketkumar-18 "$GITHUB_WORKSPACE/dist"
+
+      # ---- 3. Activity graph ----
+      - name: Clone github-readme-activity-graph
+        run: git clone --depth 1 https://github.com/Ashutosh00710/github-readme-activity-graph.git /tmp/ag
+
+      - name: Generate activity graph
+        run: |
+          cd /tmp/ag
+          npm install --no-audit --no-fund
+          cp "$GITHUB_WORKSPACE/scripts/generate-graph.ts" .
+          TOKEN=*** secrets.GITHUB_TOKEN }} npx tsx generate-graph.ts saketkumar-18 "$GITHUB_WORKSPACE/dist"
+
+      # ---- 4. Push all widgets to output branch ----
+      - name: Push widgets to output branch
+        run: |
+          cd "$GITHUB_WORKSPACE/dist"
+          git init -q
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "chore: refresh profile widgets"
+          git branch -M output
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/saketkumar-18/saketkumar-18.git"
+          git push -q -f origin output

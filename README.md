@@ -145,27 +145,73 @@ ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh
 
 <div align="center">
 
-**⌨️ Languages & Tools**
+**⌨️ Languages**
 
-<img src="https://skillicons.dev/icons?i=python,c,cpp,ts,js,bash,git,github,linux,vscode&theme=dark&perline=10" alt="Languages & Tools"/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**🤖 ML · Deep Learning · GenAI**
+**🤖 ML · Deep Learning · Computer Vision**
 
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,huggingface,opencv&theme=dark" alt="ML & DL"/>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6F00?style=for-the-badge)
 
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-FF6F00?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![llama.cpp](https://img.shields.io/badge/llama.cpp-000000?style=flat-square) ![LoRA/QLoRA](https://img.shields.io/badge/LoRA%20%2F%20QLoRA-7c3aed?style=flat-square) ![FAISS](https://img.shields.io/badge/FAISS-0055FF?style=flat-square) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FFD200?style=flat-square)
+**✨ GenAI · LLMs · RAG**
+
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-000000?style=for-the-badge)
+![LoRA / QLoRA](https://img.shields.io/badge/LoRA%20%2F%20QLoRA-7c3aed?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-22d3ee?style=for-the-badge)
+![FAISS](https://img.shields.io/badge/FAISS-0055FF?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FFD200?style=for-the-badge&logoColor=black)
 
 **📊 Data Science**
 
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-1F77B4?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-1F77B4?style=for-the-badge)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-**🌐 Web & Cloud**
+**🌐 Web & APIs**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,docker,kubernetes,gcp,aws,vercel,netlify&theme=dark&perline=10" alt="Web & Cloud"/>
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**☁️ Cloud · MLOps · DevOps**
+
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 **🗄️ Databases**
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases"/>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 </div>
 
@@ -175,8 +221,8 @@ ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh
 
 <div align="center">
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=saketkumar-18&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true&icon_color=22d3ee&title_color=a78bfa&text_color=e2e8f0&ring_color=7c3aed" alt="GitHub Stats"/>
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saketkumar-18&layout=compact&theme=transparent&hide_border=true&langs_count=8&title_color=a78bfa&text_color=e2e8f0" alt="Top Languages"/>
+<img height="175em" src="https://raw.githubusercontent.com/saketkumar-18/saketkumar-18/output/github-stats.svg" alt="GitHub Stats"/>
+<img height="175em" src="https://raw.githubusercontent.com/saketkumar-18/saketkumar-18/output/top-languages.svg" alt="Top Languages"/>
 
 <br/>
 
@@ -184,7 +230,7 @@ ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=saketkumar-18&theme=react-dark&hide_border=true&area=true&color=22d3ee&line=7c3aed&point=f472b6&bg_color=0d1117" alt="Activity Graph"/>
+<img src="https://raw.githubusercontent.com/saketkumar-18/saketkumar-18/output/activity-graph.svg" width="100%" alt="Activity Graph"/>
 
 </div>
 
@@ -208,7 +254,7 @@ ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=saketkumar-18&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="Trophies"/>
+<img src="https://github-profile-trophy-one.vercel.app/?username=saketkumar-18&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="Trophies"/>
 
 </div>
 
@@ -227,7 +273,13 @@ ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh
 
 <div align="center">
 
-![Agentic AI](https://img.shields.io/badge/Agentic%20AI-7c3aed?style=flat-square) ![Multi--Agent Systems](https://img.shields.io/badge/Multi--Agent%20Systems-22d3ee?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-f472b6?style=flat-square) ![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-34d399?style=flat-square) ![Distributed Training](https://img.shields.io/badge/Distributed%20Training-FF6F00?style=flat-square) ![Vector Databases](https://img.shields.io/badge/Vector%20DBs-0055FF?style=flat-square)
+![Agentic AI](https://img.shields.io/badge/Agentic%20AI-7c3aed?style=for-the-badge)
+![Multi--Agent Systems](https://img.shields.io/badge/Multi--Agent%20Systems-22d3ee?style=for-the-badge)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge)
+![MCP](https://img.shields.io/badge/MCP-f472b6?style=for-the-badge)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement%20Learning-34d399?style=for-the-badge)
+![Distributed Training](https://img.shields.io/badge/Distributed%20Training-FF6F00?style=for-the-badge)
+![Vector Databases](https://img.shields.io/badge/Vector%20DBs-0055FF?style=for-the-badge)
 
 </div>
 
