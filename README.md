@@ -32,24 +32,122 @@ class SaketKumar:
 
     def currently_building(self):
         return [
-            "Production-ready RAG systems & LLM apps",
-            "Fine-tuning open-source LLMs (LoRA / QLoRA)",
-            "Agentic AI & multi-agent pipelines",
-            "Computer vision for real-world impact",
+            "Agentic AI — code-review & multi-agent research teams",
+            "In-browser ML: ONNX/WASM models running 100% client-side",
+            "RAG reliability: hallucination detection & grounded QA",
+            "Self-improving trading agents (paper trading)",
         ]
 
     def ask_me_about(self):
-        return ["LLMs", "RAG", "MLOps", "GenAI", "Computer Vision"]
+        return ["LLMs", "RAG", "Agentic AI", "GenAI", "Computer Vision"]
 ```
 
 > 💡 **Turning data into intelligence. Building AI for real-world impact.**
 
 <img src="assets/divider.svg" width="100%"/>
 
-## 🚀 Featured Projects
+## 🚀 Featured Projects — AI/ML Capstone Series
 
 <table>
 <tr>
+<td width="50%">
+
+### 🔍 RepoLens
+LLM code-review agent with repo-level context retrieval — PR diff + full-repo indexing (BM25 + reference graph) → line-level review comments posted to GitHub. Catches bugs invisible from the diff alone. 65 tests, CI-green.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-7c3aed?style=flat-square) ![Retrieval](https://img.shields.io/badge/Retrieval-22d3ee?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/repolens)
+
+</td>
+<td width="50%">
+
+### 📑 DocVQA
+Visual Question Answering over documents — OCR + layout analysis + BM25 retrieval + grounded LLM answering. ANLS 1.0 on the 27-question evaluation set.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![OCR](https://img.shields.io/badge/OCR-FF6F00?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7c3aed?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/docvqa) · [🌐 Live Demo](https://docvqa.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🛡️ FaithGuard
+Hallucination detection & mitigation engine for RAG — claim-level NLI detection (F1 0.887), re-retrieval auto-correction, SQuAD-benchmarked faithfulness gains.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![NLI](https://img.shields.io/badge/NLI-34d399?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7c3aed?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/faithguard)
+
+</td>
+<td width="50%">
+
+### 🎭 Deepfake Detector
+Spatial-temporal deepfake video detection — EfficientNet-B0 (AUC 0.955 / 0.946 cross-dataset), cross-generator artifact generalization. Runs 100% in-browser via fp16 ONNX/WASM.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![ONNX/WASM](https://img.shields.io/badge/ONNX%2FWASM-22d3ee?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/deepfake-detection) · [🌐 Live Demo](https://deepfake-detector-amber.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🎙️ Svara
+Privacy-first on-device voice emotion screener — speech emotion recognition (CREMA-D) via int8 ONNX, fully in-browser WebAssembly. No audio ever leaves the device.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SER](https://img.shields.io/badge/SER-f472b6?style=flat-square) ![ONNX/WASM](https://img.shields.io/badge/ONNX%2FWASM-22d3ee?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/svara) · [🌐 Live Demo](https://svara-emotion.vercel.app)
+
+</td>
+<td width="50%">
+
+### 🗣️ Meeting Intelligence
+Speaker diarization → transcription → auto summary + action items + who-owns-what. In-browser ML (sherpa-onnx WASM + Whisper), serverless LLM analysis.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Whisper](https://img.shields.io/badge/Whisper-FF6F00?style=flat-square) ![WASM](https://img.shields.io/badge/WASM-22d3ee?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/meeting-intelligence) · [🌐 Live Demo](https://meeting-intelligence-lime.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🩺 MedSumm
+Medical report summarizer + triage assistant — clinical NLP with safety evaluation. Deterministic triage core + safety-gated LLM layer.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Clinical NLP](https://img.shields.io/badge/Clinical%20NLP-34d399?style=flat-square) ![Safety](https://img.shields.io/badge/Safety-E4405F?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/medical-report-summarizer) · [🌐 Live Demo](https://medical-report-summarizer-phi.vercel.app)
+
+</td>
+<td width="50%">
+
+### 📈 Vriddhi
+Self-improving paper-trading agent — hedge strategy + walk-forward GBM signals + risk management, with an autonomous self-improvement loop.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![GBM](https://img.shields.io/badge/GBM-FF6F00?style=flat-square) ![Quant](https://img.shields.io/badge/Quant-7c3aed?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/vriddhi) · [🌐 Live Demo](https://vriddhi-trading-agent.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 👻 Persona
+Privacy-first social discovery & real-time chat — no accounts: ephemeral JWT sessions, E2E-encrypted self-destructing rooms, on-device location coarsening, QR pairing.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![E2EE](https://img.shields.io/badge/E2EE-34d399?style=flat-square)
+
+[📂 Repo](https://github.com/saketkumar-18/persona) · [🌐 Live Demo](https://persona-chat.vercel.app)
+
+</td>
 <td width="50%">
 
 ### 🌊 Yamuna Flood Mapper
@@ -60,84 +158,19 @@ Sentinel-1 SAR satellite flood mapping for the Yamuna corridor, Delhi — free s
 [📂 Repo](https://github.com/saketkumar-18/yamuna-flood-mapper) · [🌐 Live Demo](https://yamuna-flood-mapper.vercel.app)
 
 </td>
-<td width="50%">
-
-### 🌌 3D Motion Portfolio
-Cinematic scroll-driven 3D journey — Three.js through a low-poly sunset world.
-
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-[📂 Repo](https://github.com/saketkumar-18/portfolio-3d) · [🌐 Live Demo](https://saket18.is-a.dev)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🧠 MindVault
-Local-first private AI knowledge assistant — semantic search & chat with your docs, 100% on-device. No cloud, no telemetry.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Local LLMs](https://img.shields.io/badge/Local%20LLMs-FF6F00?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7c3aed?style=flat-square)
-
-[📂 Repo](https://github.com/saketkumar-18/mindvault)
-
-</td>
-<td width="50%">
-
-### 🔎 Lost & Found Network
-Privacy-first community platform for lost & found items — smart matching engine, map view, anonymous chat.
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
-
-[📂 Repo](https://github.com/saketkumar-18/lost-found-network)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 👻 GhostLink
-Anonymous real-time chat & social discovery — no accounts, ephemeral sessions, self-destructing messages.
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square)
-
-[🌐 Live Demo](https://ghostlink-web-eight.vercel.app)
-
-</td>
-<td width="50%">
-
-### 📄 PDF RAG Chatbot
-Chat with any PDF using retrieval-augmented generation — vector index + LLM, deployed serverless.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-7c3aed?style=flat-square) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-[🌐 Live Demo](https://pdf-rag-chatbot-gamma.vercel.app)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🎵 Saket18 Music
-Full-featured music streaming PWA — search, playback, recommendations. Installable on Android.
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-
-[🌐 Live Demo](https://saket18-music.vercel.app)
-
-</td>
-<td width="50%">
-
-### 🌫️ Delhi AQI Predictor
-ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh data.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Time Series](https://img.shields.io/badge/Time%20Series-FF6347?style=flat-square) ![ML](https://img.shields.io/badge/Machine%20Learning-009688?style=flat-square)
-
-[🌐 Live Demo](https://delhi-aqi-forecast.netlify.app)
-
-</td>
 </tr>
 </table>
+
+### 🧰 More Projects
+
+- 🤖 **[Research Copilot](https://github.com/saketkumar-18/research-copilot)** — multi-agent team (planner → searcher → writer → critic) producing cited survey reports
+- 🧠 **[MindVault](https://github.com/saketkumar-18/mindvault)** — local-first private AI knowledge assistant, semantic search & chat with your docs, 100% on-device
+- 📄 **[PDF RAG Chatbot](https://pdf-rag-chatbot-gamma.vercel.app)** — chat with any PDF: vector index + LLM, deployed serverless
+- 🎵 **[Saket18 Music](https://saket18-music.vercel.app)** — full-featured music streaming PWA, installable on Android (TWA)
+- 🌫️ **[Delhi AQI Predictor](https://delhi-aqi-forecast.netlify.app)** — ML air-quality forecasting, auto-refreshed daily
+- 🌌 **[3D Motion Portfolio](https://saket18.is-a.dev)** — cinematic scroll-driven Three.js journey through a low-poly sunset world
+- 🔎 **[Lost & Found Network](https://github.com/saketkumar-18/lost-found-network)** — privacy-first community platform: smart matching, map view, anonymous chat
+- 📡 **[LAN File Share](https://github.com/saketkumar-18/lan-file-share)** — zero-config LAN file sharing with QR phone access, single-file FastAPI
 
 <img src="assets/divider.svg" width="100%"/>
 
@@ -162,6 +195,8 @@ ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh
 ![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-FF6F00?style=for-the-badge)
+![ONNX Runtime](https://img.shields.io/badge/ONNX%20Runtime-0055FF?style=for-the-badge)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
 
 **✨ GenAI · LLMs · RAG**
 
@@ -264,6 +299,7 @@ ML-powered air quality forecasting for Delhi — auto-refreshed daily with fresh
 
 - [x] Build production-ready AI applications
 - [x] Deploy real-world ML systems (flood mapping, AQI forecasting)
+- [x] Ship a 10-project AI capstone series — LLM, RAG, CV & audio, all with tests + live demos
 - [ ] Master LLM fine-tuning & distributed training
 - [ ] Contribute to open-source AI projects
 - [ ] Publish technical blogs
