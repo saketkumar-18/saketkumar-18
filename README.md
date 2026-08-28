@@ -261,7 +261,7 @@ Sentinel-1 SAR satellite flood mapping for the Yamuna corridor, Delhi — free s
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=saketkumar-18&theme=transparent&hide_border=true&ring=7c3aed&fire=f472b6&currStreakLabel=22d3ee&sideLabels=a78bfa&dates=94a3b8" alt="Streak"/>
+<img src="https://raw.githubusercontent.com/saketkumar-18/saketkumar-18/output/streak-stats.svg" alt="Streak"/>
 
 <br/>
 

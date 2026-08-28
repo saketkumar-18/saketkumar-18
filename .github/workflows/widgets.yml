@@ -58,7 +58,13 @@ jobs:
           cp "$GITHUB_WORKSPACE/scripts/generate-graph.ts" .
           TOKEN="$GRAPH_PAT" npx tsx generate-graph.ts saketkumar-18 "$GITHUB_WORKSPACE/dist"
 
-      # ---- 4. Push all widgets to output branch ----
+      # ---- 4. Streak stats (static, replaces flaky demolab service) ----
+      - name: Generate streak stats
+        env:
+          STREAK_PAT: ${{ secrets.GH_PAT }}
+        run: node "$GITHUB_WORKSPACE/scripts/generate-streak.mjs" saketkumar-18 "$GITHUB_WORKSPACE/dist"
+
+      # ---- 5. Push all widgets to output branch ----
       - name: Push widgets to output branch
         env:
           PUSH_PAT: ${{ secrets.GH_PAT }}
