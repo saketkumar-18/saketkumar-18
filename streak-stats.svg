@@ -1,0 +1,33 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub Streak Stats for saketkumar-18">
+  <title>GitHub Streak Stats</title>
+  <style>
+    .num   { font: 800 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; }
+    .label { font: 700 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; letter-spacing: 1px; text-transform: uppercase; }
+    .range { font: 400 10.5px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; }
+    text { text-anchor: middle; }
+  </style>
+
+  <rect x="1" y="1" width="493" height="193" rx="10" fill="transparent" stroke="#7c3aed" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <line x1="165" y1="28" x2="165" y2="167" stroke="#7c3aed" stroke-opacity="0.25" stroke-width="1"/>
+  <line x1="330" y1="28" x2="330" y2="167" stroke="#7c3aed" stroke-opacity="0.25" stroke-width="1"/>
+
+  <!-- ring around current streak -->
+  <circle cx="247.5" cy="82" r="52" stroke="#7c3aed" stroke-width="2.5" stroke-opacity="0.9"/>
+
+  <!-- Total contributions -->
+  <text x="82.5" y="92" class="num" fill="#c4b5fd">200</text>
+  <text x="82.5" y="122" class="label" fill="#a78bfa">Total Contributions</text>
+  <text x="82.5" y="146" class="range" fill="#94a3b8">Aug 31, 2025 – Aug 30, 2026</text>
+
+  <!-- Current streak -->
+  <text x="247.5" y="70" font-size="18">🔥</text>
+  <text x="247.5" y="100" class="num" fill="#f472b6">5</text>
+  <text x="247.5" y="156" class="label" fill="#22d3ee">Current Streak</text>
+  <text x="247.5" y="176" class="range" fill="#94a3b8">Aug 26, 2026 – Aug 30, 2026</text>
+
+  <!-- Longest streak -->
+  <text x="412.5" y="92" class="num" fill="#c4b5fd">5</text>
+  <text x="412.5" y="122" class="label" fill="#a78bfa">Longest Streak</text>
+  <text x="412.5" y="146" class="range" fill="#94a3b8">Aug 26, 2026 – Aug 30, 2026</text>
+</svg>
