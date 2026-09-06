@@ -38,7 +38,7 @@ jobs:
 
       - name: Generate stats cards
         env:
-          STATS_PAT: ${{ secrets.GH_PAT }}
+          STATS_PAT: ${{ secrets.GH_PAT || github.token }}
         run: |
           cd /tmp/grs
           npm install --no-audit --no-fund
@@ -51,7 +51,7 @@ jobs:
 
       - name: Generate activity graph
         env:
-          GRAPH_PAT: ${{ secrets.GH_PAT }}
+          GRAPH_PAT: ${{ secrets.GH_PAT || github.token }}
         run: |
           cd /tmp/ag
           npm install --no-audit --no-fund
