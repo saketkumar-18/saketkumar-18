@@ -57,7 +57,7 @@ LLM code-review agent with repo-level context retrieval — PR diff + full-repo 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-7c3aed?style=flat-square) ![Retrieval](https://img.shields.io/badge/Retrieval-22d3ee?style=flat-square)
 
-[📂 Repo](https://github.com/saketkumar-18/repolens)
+[📂 Repo](https://github.com/saketkumar-18/repolens) · [🌐 Live Demo](https://repolens-az7g.onrender.com)
 
 </td>
 <td width="50%">
@@ -79,7 +79,7 @@ Hallucination detection & mitigation engine for RAG — claim-level NLI detectio
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![NLI](https://img.shields.io/badge/NLI-34d399?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7c3aed?style=flat-square)
 
-[📂 Repo](https://github.com/saketkumar-18/faithguard)
+[📂 Repo](https://github.com/saketkumar-18/faithguard) · [🌐 Live Demo](https://faithguard.onrender.com)
 
 </td>
 <td width="50%">
@@ -163,14 +163,15 @@ Sentinel-1 SAR satellite flood mapping for the Yamuna corridor, Delhi — free s
 
 ### 🧰 More Projects
 
-- 🤖 **[Research Copilot](https://github.com/saketkumar-18/research-copilot)** — multi-agent team (planner → searcher → writer → critic) producing cited survey reports
-- 🧠 **[MindVault](https://github.com/saketkumar-18/mindvault)** — local-first private AI knowledge assistant, semantic search & chat with your docs, 100% on-device
+- 🤖 **[Research Copilot](https://research-copilot-2bj2.onrender.com)** — multi-agent team (planner → searcher → writer → critic) producing cited survey reports, deployed live
+- 🧠 **[MindVault](https://mindvault-l60k.onrender.com)** — local-first private AI knowledge assistant, semantic search & chat with your docs — live demo with cloud LLM
 - 📄 **[PDF RAG Chatbot](https://pdf-rag-chatbot-gamma.vercel.app)** — chat with any PDF: vector index + LLM, deployed serverless
 - 🎵 **[Saket18 Music](https://saket18-music.vercel.app)** — full-featured music streaming PWA, installable on Android (TWA)
 - 🌫️ **[Delhi AQI Predictor](https://delhi-aqi-forecast.netlify.app)** — ML air-quality forecasting, auto-refreshed daily
+- 🗣️ **[Hinglish ASR](https://hinglish-asr.vercel.app)** — production code-switching ASR (Hindi–English): faster-whisper dual-pass fusion, live WER/CER benchmarks
 - 🌌 **[3D Motion Portfolio](https://saket18.is-a.dev)** — cinematic scroll-driven Three.js journey through a low-poly sunset world
-- 🔎 **[Lost & Found Network](https://github.com/saketkumar-18/lost-found-network)** — privacy-first community platform: smart matching, map view, anonymous chat
-- 📡 **[LAN File Share](https://github.com/saketkumar-18/lan-file-share)** — zero-config LAN file sharing with QR phone access, single-file FastAPI
+- 🔎 **[Lost & Found Network](https://lost-found-network-ummz.onrender.com)** — privacy-first community platform: smart matching, map view, anonymous chat — live
+- 📡 **[LAN File Share](https://github.com/saketkumar-18/lan-file-share)** — zero-config LAN file sharing with QR phone access, single-file FastAPI · [public demo](https://lan-file-share.onrender.com)
 
 <img src="assets/divider.svg" width="100%"/>
 
